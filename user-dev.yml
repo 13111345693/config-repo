@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql:///po110
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 192.168.0.106
+    port: 6379
+  rabbitmq:
+    host: 192.168.0.106
+    password: guest
+    username: guest
+    port: 5672
+  application:
+    name: user
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka/
+server:
+  port: 9999
