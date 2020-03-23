@@ -14,9 +14,5 @@ spring:
     port: 5672
   application:
     name: user
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8762/eureka/
 server:
   port: 9999
